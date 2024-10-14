@@ -88,7 +88,7 @@ async function submitQuestion() {
     return;
   }
 
-  const apiKey = "sk-HUifBkk4XPhJlkREQgBvnz_dX0lbh0NDNWu_WHl2RhT3BlbkFJB8jlkIo8ByFYp1qoyE9S8nkniZRh8nNOcFt10j8QUA"; // Replace with your OpenAI API key
+  const apiKey = "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"; // Replace with your OpenAI API key
   const messages = [
     { role: 'system', content: 'You are a helpful assistant that answers questions based on the provided document.' },
     { role: 'system', content: `Document content:\n${documentText}` },
